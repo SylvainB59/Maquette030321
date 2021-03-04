@@ -8,10 +8,10 @@ ul{
     color: whitesmoke;
 }
 
-#MonCaroussel{
+#MonCaroussel1{
     height: 85vh;
 }
-#MonCaroussel li{
+#MonCaroussel1 li{
     width: 50px;
     height: 50px;
     border: 3px solid grey;
@@ -53,7 +53,7 @@ ul{
 
 .services .card{
     background: white;
-    border: 1px solid blue;
+    border: 1px solid #007bff;
     border-radius: initial;
     margin-bottom: 5px;
     padding: 15px;
@@ -65,7 +65,7 @@ ul{
 .services .card svg{
     margin: auto;
     font-size: 4em;
-    background-color: blue;
+    background-color: #007bff;
     color: white;
     padding: 10px;
 }
@@ -98,5 +98,11 @@ ul{
     height: 20px;
 }
 #MonCaroussel2 ol .active{
-    background-color: blue;
+    background-color: #007bff;
+}
+
+.counterZone svg{
+    margin: auto;
+    font-size: 4em;
+    padding: 10px;
 }
