@@ -19,22 +19,22 @@ ul{
     overflow: hidden;
 }
 
-#MonCaroussel li img{
+#MonCaroussel1 li img{
     width: 150%;
     position: relative;
     top: 0px;
     left: -5px;
 }
 
-.MonCaroussel-caption{
+.MonCaroussel1-caption{
     bottom: 35%;
 }
-.MonCaroussel-caption *:first-child{
+.MonCaroussel1-caption *:first-child{
     font-size: 4em;
     line-height: 0.9;
     text-shadow:3px 3px #000000;
 }
-.MonCaroussel-caption *:nth-child(2){
+.MonCaroussel1-caption *:nth-child(2){
     font-weight: bold;
     font-size: 1.3em;
 }
@@ -84,4 +84,19 @@ ul{
 
 .about{
     padding-top: 5%;
+}
+
+#MonCaroussel2 ol{
+    position: relative;
+}
+
+#MonCaroussel2 ol li{
+    border: none;
+    border-radius: 50px;
+    background-color: grey;
+    width: 20px;
+    height: 20px;
+}
+#MonCaroussel2 ol .active{
+    background-color: blue;
 }
