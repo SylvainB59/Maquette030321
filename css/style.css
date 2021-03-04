@@ -38,3 +38,50 @@ ul{
     font-weight: bold;
     font-size: 1.3em;
 }
+
+.services{
+    height: 90vh;
+    background: center/100% no-repeat url(../images/image1.jpg);
+}
+.services div{
+    background: #ffffffbb;
+}
+
+.services .container, .services .container *{
+    background: rgba(0, 0, 0, 0);
+}
+
+.services .card{
+    background: white;
+    border: 1px solid blue;
+    border-radius: initial;
+    margin-bottom: 5px;
+    padding: 15px;
+}
+.services .col-4{
+    /* width: 30%; */
+    flex: 0 0 32.5%;
+}
+.services .card svg{
+    margin: auto;
+    font-size: 4em;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+.parentAbout{
+    height: 80vh;
+    
+    background: left url(../images/coeurs.jpg);
+}
+.parentAbout div{
+    background: #ffffffbb;
+}
+.parentAbout .container, .parentAbout .container .row{
+    background: rgba(0, 0, 0, 0);
+}
+
+.about{
+    padding-top: 5%;
+}
