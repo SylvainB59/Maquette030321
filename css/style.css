@@ -114,5 +114,12 @@ ul{
     padding: 10px;
 }
 .counterZoneText{
-    font-size: 3rem;
+    font-size: 2rem;
+}
+
+.galeryExpert div{
+    width: 20%;
+}
+.galeryExpert img{
+    width: 100%;
 }
