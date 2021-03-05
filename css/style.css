@@ -101,8 +101,18 @@ ul{
     background-color: #007bff;
 }
 
+.counterZone{
+    background: center/100% url(../images/image4.jpg);
+}
+.counterZone>div{
+    background: #6a1e8898;
+    padding: 3.5rem 0;
+}
 .counterZone svg{
     margin: auto;
-    font-size: 4em;
+    font-size: 4.5rem;
     padding: 10px;
+}
+.counterZoneText{
+    font-size: 3rem;
 }
